@@ -1,0 +1,11 @@
+/* Import Tailwind's base, components, and utilities */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Add any custom styles that are difficult to achieve with Tailwind */
+.text-shadow {
+    text-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add any other custom styles from your original CSS that aren't covered by Tailwind */

@@ -1,0 +1,49 @@
+export default function Projects() {
+    const projects = [
+      {
+        id: 1,
+        title: 'Project 1',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi assumenda distinctio dolorum ad incidunt.',
+        image: '/placeholder.jpg'
+      },
+      {
+        id: 2,
+        title: 'Project 2',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi assumenda distinctio dolorum ad incidunt.',
+        image: '/placeholder.jpg'
+      },
+      {
+        id: 3,
+        title: 'Project 3',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi assumenda distinctio dolorum ad incidunt.',
+        image: '/placeholder.jpg'
+      },
+      {
+        id: 4,
+        title: 'Project 4',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi assumenda distinctio dolorum ad incidunt.',
+        image: '/placeholder.jpg'
+      }
+    ]
+  
+    return (
+      <section id="projects" className="py-16 px-4 bg-[#333] text-[#bcbcbc] text-center">
+        <div className="max-w-6xl mx-auto">
+          <h4 className="text-3xl font-bold mb-8 text-white">Projects</h4>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {projects.map((project) => (
+              <div key={project.id} className="flex flex-col">
+                <img 
+                  src={project.image || "/placeholder.svg"} 
+                  alt={project.title} 
+                  className="w-full h-48 object-cover rounded-lg mb-4"
+                />
+                <h4 className="text-xl font-bold mb-2 text-white">{project.title}</h4>
+                <p>{project.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
