@@ -2,21 +2,21 @@ export default function Projects() {
     const projects = [
       {
         id: 1,
-        title: 'Project 1',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi assumenda distinctio dolorum ad incidunt.',
-        image: '/placeholder.jpg'
+        title: 'Gas Up',
+        description: 'A full-stack solution for tracking, updating, and analyzing gasoline prices across different gas station branches',
+        image: 'public/gasup.png'
       },
       {
         id: 2,
-        title: 'Project 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi assumenda distinctio dolorum ad incidunt.',
-        image: '/placeholder.jpg'
+        title: 'Get Queued',
+        description: 'A web-based queuing management system to streamline patient check-up process using React.',
+        image: 'public/getqueued.png'
       },
       {
         id: 3,
-        title: 'Project 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sequi assumenda distinctio dolorum ad incidunt.',
-        image: '/placeholder.jpg'
+        title: 'Pocket Inspector AI',
+        description: 'An AI-powered web app that can detect and identify objects using Google Cloud Vision API.',
+        image: 'public/pocketai.png'
       },
       {
         id: 4,

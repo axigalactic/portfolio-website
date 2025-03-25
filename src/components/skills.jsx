@@ -1,12 +1,12 @@
 export default function Skills() {
     const skills = [
-      { name: 'HTML', icon: '/html.png' },
-      { name: 'CSS', icon: '/css.png' },
-      { name: 'JavaScript', icon: '/js.png' },
-      { name: 'ReactJS', icon: '/reactjs.png' },
-      { name: 'NodeJS', icon: '/nodejs.png' },
-      { name: 'MongoDB', icon: '/mongodb.svg' },
-      { name: 'Python', icon: '/python.png' },
+      { name: 'HTML', icon: 'public/html.png' },
+      { name: 'CSS', icon: 'public/css.png' },
+      { name: 'JavaScript', icon: 'public/js.png' },
+      { name: 'ReactJS', icon: 'public/reactjs.png' },
+      { name: 'NodeJS', icon: 'public/nodejs.png' },
+      { name: 'MongoDB', icon: 'public/mongodb.svg' },
+      { name: 'Python', icon: 'public/python.png' },
     ]
   
     return (
