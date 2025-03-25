@@ -2,7 +2,7 @@ export default function Banner() {
     return (
       <header id="home" className="relative w-full h-screen overflow-hidden flex items-center justify-center">
         <img 
-          src="/img-banner.JPEG" 
+          src="public/img-banner.JPEG" 
           alt="Banner background" 
           className="object-cover object-[80%] brightness-50 absolute top-0 left-0 w-full h-full"
         />
